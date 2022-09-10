@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Montserrat:wght@400;700&family=Poppins:wght@400;600;700&family=Raleway:wght@500;600;700&display=swap');
+
+:root{
+	--primary-color:#F2C94C;
+	--secondary-color: #333333;
+}
+
+button{
+	border: none;
+}
+
+body{
+	font-family: 'Combo';
+	margin: 0;
+	width: 100%;
+}
+
+.main{
+	display: block;
+	/* border:1px solid red; */
+	max-width: 660px;
+	margin: 0 auto;
+}
+
+.navigation{
+	background-color: var(--primary-color);
+	padding: 2rem;
+}
+
+.nav-brand{
+	text-align: center;
+	font-size: 2rem;
+}
+
+.text-area{
+	width: 100%;
+	min-height: 20vh;
+	margin: 1.5rem 0;
+	border: 2px solid var(--secondary-color);
+	font-size: 1rem;
+	padding-top: 1rem;
+	font-family: 'Combo';
+}
+.translate-btn{
+	height: 3rem;
+	font-size: 1rem;
+	padding: 1rem;
+	background-color: var(--primary-color);
+}
+
+.output-heading{
+	color: var(--secondary-color);
+}
+
+#output-textarea{
+	border: 2px solid var(--secondary-color);
+	min-height: 10vh;
+	width: 100%;
+	margin-top: -.5rem;
+	padding-top: .5rem;
+}
+
+.footer{
+	background-color: var(--primary-color);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: var(--secondary-color);
+	text-align: center;
+	/* padding: .5rem; */
+}
+
+.footer h2{
+	font-size: 1.5rem;
+}
+
+.footer p{
+	max-width: 660px;
+	margin: auto;
+	font-size: 1rem;
+	padding-bottom: 1rem;	
+}
+
+@media (max-width: 660px){
+	.main{
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+
+	.text-area{
+		min-height: 15vh;
+	}
+
+	.footer p{
+		font-size: 1rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+}
